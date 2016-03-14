@@ -1,0 +1,37 @@
+html {
+	box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+.banner-body {
+  font-style: italic;
+  font-size: 2rem;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  overflow: hidden;
+  border-radius: 0 0 0 0;
+  float: left;
+}
+
+.banner-title {
+  margin: 0;
+  padding: .3rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
